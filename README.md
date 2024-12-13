@@ -1,12 +1,14 @@
 Leave Management System (Backend)
 📖 Overview
-This is the backend API for the Leave Management System, which manages leave applications, approvals, and policies. It provides RESTful endpoints for various operations, such as submitting leave requests, handling approvals, and maintaining leave balances.
+The Leave Management System backend provides APIs to manage leave applications, approvals, and policies efficiently. It exposes RESTful endpoints for various operations such as submitting leave requests, processing approvals, and tracking leave balances.
 
 🛠️ Tech Stack
 Programming Language: Java
 Framework: Spring Boot
 Database: MongoDB
 
-📈 Future Enhancements
-Integration with a frontend interface.
-Enhanced reporting capabilities.
+📂 Key Functionalities
+Employee Leave Requests: APIs to submit and retrieve leave requests.
+Approval Workflow: Endpoints for managers to approve or reject leave requests.
+Leave Policies: Support for setting and managing organization-specific leave policies.
+Leave Balances: Real-time tracking of leave balances for employees.
