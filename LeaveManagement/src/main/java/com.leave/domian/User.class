@@ -1,0 +1,47 @@
+package com.leave.domain;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "User")
+public class User {
+
+	@Id
+	private String id;
+	private String userName;
+	private String mobileNumber;
+	private String password;
+	private String managerId;
+	
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public String getMobileNumber() {
+		return mobileNumber;
+	}
+	public void setMobileNumber(String mobileNumber) {
+		this.mobileNumber = mobileNumber;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getManagerId() {
+		return managerId;
+	}
+	public void setManagerId(String managerId) {
+		this.managerId = managerId;
+	}
+	
+}
